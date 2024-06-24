@@ -9,10 +9,6 @@ const aprendiendo = tecnologia => console.log(`Aprendiendo ${tecnologia}`)
 
 aprendiendo('JavaScript');
 
-
-
-
-
 // Array Methods
 
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'];

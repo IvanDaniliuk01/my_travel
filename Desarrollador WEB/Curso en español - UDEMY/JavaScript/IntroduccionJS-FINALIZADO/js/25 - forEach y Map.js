@@ -10,9 +10,9 @@ const carrito = [
 ];
 
 // ForEach
-carrito.forEach( producto => console.log(producto.nombre));
+carrito.forEach( producto => console.log(producto.nombre)); //Únicamente posible en arreglos.
 
-// map
+// map sirve para crear un nuevo arreglo
 const arreglo2 = carrito.map( producto => `${producto.nombre} - ${producto.precio}`);
 
 console.log(arreglo2);
