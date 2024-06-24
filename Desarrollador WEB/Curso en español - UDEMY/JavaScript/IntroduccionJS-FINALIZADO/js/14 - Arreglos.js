@@ -21,8 +21,8 @@ const numeros = [10,20,30,40,50];
 //     console.log(numero);
 // })
 
-numeros.push(60,70,80); // Al final del arreglo
-numeros.unshift(-10,-20,-30); // al inicio del arreglo
+numeros.push(60,70,80); // Agregar datos al final del arreglo
+numeros.unshift(-10,-20,-30); // Agregar datos al inicio del arreglo
 
 console.table(numeros);
 
@@ -34,7 +34,7 @@ const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'];
 // meses.splice(2, 1);
 // console.table(meses);
 
-// Rest Operator o Spread Operator
+// Rest Operator o Spread Operator. Esto es lo que recomiendan las buenas prácticas.
 
 const nuevoArreglo = ['Junio', ...meses];
 console.log(nuevoArreglo);

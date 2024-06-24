@@ -9,7 +9,7 @@ const medidas = {
     medida: '1m'
 }
 
-const nuevoProducto = { ...producto, ...medidas };
+const nuevoProducto = { ...producto, ...medidas }; // Las buenas prácticas mencionan que no debemos modificar objetos ya existentes si no que debemos mutarlos.
 
 console.log(producto);
 console.log(nuevoProducto);
