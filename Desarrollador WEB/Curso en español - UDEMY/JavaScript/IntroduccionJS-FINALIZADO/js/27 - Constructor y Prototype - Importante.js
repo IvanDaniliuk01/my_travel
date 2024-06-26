@@ -104,7 +104,8 @@ Compra.prototype.formatearCompra = function () {
 */
 
 // Creación de instancia de Cliente
-const cliente = new Cliente('Juan', 'De la torre');
+const cliente1 = new Cliente('Juan', 'De la torre');
+const cliente2 = new Cliente('Ivan', 'Daniliuk');
 
 // Creación de instancias de Producto
 const producto1 = new Producto('Monitor Curvo de 49"', 800);
@@ -112,7 +113,8 @@ const producto2 = new Producto('Laptop', 300);
 const producto3 = new Producto('Teclado', 50);
 
 // Creación de instancia de Compra con múltiples productos
-const compra1 = new Compra(cliente, [producto1, producto2, producto3]);
+const compra1 = new Compra(cliente1, [producto1, producto2, producto3]);
+const compra2 = new Compra(cliente2, [producto1, producto2]);
 
 
 //Uso de los métodos
@@ -120,4 +122,5 @@ const compra1 = new Compra(cliente, [producto1, producto2, producto3]);
 * ! OCTAVO SE RETORNA LA CADENA COMBINADA
 */
 console.log(compra1.formatearCompra());
+console.log(compra2.formatearCompra());
 
