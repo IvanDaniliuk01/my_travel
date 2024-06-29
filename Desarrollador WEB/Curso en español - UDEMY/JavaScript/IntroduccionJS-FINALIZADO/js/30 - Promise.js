@@ -8,7 +8,7 @@ const usuarioAutenticado = new Promise( (resolve, reject) => {
     }
 });
 
-usuarioAutenticado
+usuarioAutenticado //Para mostrarlo correctamente en la consola
     .then( resultado => console.log(resultado))
     .catch( error => console.log(error))
 
