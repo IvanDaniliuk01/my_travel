@@ -27,7 +27,7 @@ async function app() {
     //    console.log(clientes);
     //    console.log(pedidos);
 
-    const resultado = await Promise.all([ descargarNuevosClientes(), descargarUltimosPedidos() ]);
+    const resultado = await Promise.all([ descargarNuevosClientes(), descargarUltimosPedidos() ]); // Los dos procesos se ejecutan al mismo tiempo. Se mejora en performance.
     console.log(resultado[0]);
     console.log(resultado[1]);
    } catch (error) {
