@@ -1,0 +1,12 @@
+// Declaración de variables en SASS
+
+$fuente_principal : "Montserrat", sans-serif;
+
+// Estilo para componentes
+
+body {
+    font-family: $fuente_principal;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
